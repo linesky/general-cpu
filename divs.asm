@@ -26,7 +26,7 @@ div0:
 cmp b,0
 jc div1
 cmp a,b
-ja div2
+jc div2
 push c
 sub c,a,b
 mov a,c
