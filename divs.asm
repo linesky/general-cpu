@@ -24,7 +24,7 @@ push d
 mov c,0
 div0:
 cmp b,0
-jc div1
+jz div1
 cmp a,b
 jc div2
 push c
