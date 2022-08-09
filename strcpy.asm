@@ -1,5 +1,4 @@
 
-
 ;https://schweigi.github.io/assembler-simulator/
 
 JMP start
@@ -24,6 +23,7 @@ strcpy0:
 	CMP B, [C]	; Check if end
 	JNZ strcpy0	; jump if not
 
+       MOV [D], B
 	POP B
 	POP A
 	RET
