@@ -1,5 +1,5 @@
 ;https://schweigi.github.io/assembler-simulator/
-mov b,0
+mov b,4
 mov a,2
 call power
 
@@ -33,12 +33,16 @@ mov c,a
 cmp b,0
 jz power1
 dec b
+cmp b,0
+jz power2
 power0:
 push b
 mov b,c
 call mul
 mov c,b
 pop b
+cmp b,0
+jz power2
 dec b
 cmp b,0
 jnz power0
