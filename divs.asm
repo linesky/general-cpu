@@ -1,6 +1,6 @@
 ;https://schweigi.github.io/assembler-simulator/
 mov b,1
-mov c,3
+mov c,9
 mov d,232
 mov a,9
 again:
@@ -27,10 +27,7 @@ cmp b,0
 jz div1
 cmp a,b
 jc div2
-push c
-sub c,a,b
-mov a,c
-pop c
+sub a,b
 inc c
 cmp a,b
 jnc div0
