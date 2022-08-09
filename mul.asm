@@ -1,5 +1,5 @@
 ;https://schweigi.github.io/assembler-simulator/
-mov b,0
+mov b,1
 mov c,3
 mov d,232
 mov a,2
@@ -25,7 +25,7 @@ mov c,0
 mul0:
 cmp b,0
 jz mul1
-add c,c,a
+add c,a,c
 dec b
 cmp b,0
 jnz mul0
