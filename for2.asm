@@ -1,5 +1,5 @@
 
-;https://schweigi.github.io/assembler-simulator/mov 
+;https://schweigi.github.io/assembler-simulator/
 mov b,33
 mov c,10
 mov d,232
