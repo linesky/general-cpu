@@ -60,7 +60,7 @@ jnz lcase0
 
 lcase10:
 pop d
-pop b
+pop c
 pop b
 pop a
 ret
